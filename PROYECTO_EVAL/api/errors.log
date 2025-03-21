@@ -1,0 +1,95 @@
+[28-Jan-2025 19:25:02 Europe/Berlin] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/vespertino/Escritorio/VS/TareaDWES07_SCS/api/.env]. in /home/vespertino/Escritorio/VS/TareaDWES07_SCS/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/vespertino/Escritorio/VS/TareaDWES07_SCS/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/vespertino/Escritorio/VS/TareaDWES07_SCS/api/login.php(16): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/vespertino/Escritorio/VS/TareaDWES07_SCS/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[28-Jan-2025 19:26:02 Europe/Berlin] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/vespertino/Escritorio/VS/TareaDWES07_SCS/api/.env]. in /home/vespertino/Escritorio/VS/TareaDWES07_SCS/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/vespertino/Escritorio/VS/TareaDWES07_SCS/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/vespertino/Escritorio/VS/TareaDWES07_SCS/api/login.php(20): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/vespertino/Escritorio/VS/TareaDWES07_SCS/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[04-Feb-2025 17:47:17 Europe/Berlin] PHP Warning:  Undefined array key "id" in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 47
+[04-Feb-2025 17:47:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Firebase\JWT\JWT" not found in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 52
+[04-Feb-2025 17:50:04 Europe/Berlin] PHP Warning:  Undefined array key "id" in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 47
+[04-Feb-2025 18:03:32 Europe/Berlin] PHP Warning:  Undefined array key "id" in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 47
+[04-Feb-2025 18:10:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 47
+[04-Feb-2025 18:11:35 Europe/Berlin] PHP Warning:  Undefined array key "id" in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 47
+[04-Feb-2025 19:19:34 Europe/Berlin] PHP Warning:  Undefined array key "id" in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 47
+[05-Feb-2025 16:31:05 Europe/Berlin] Error al verificar el token de Google: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+
+[05-Feb-2025 16:33:46 Europe/Berlin] Error al verificar el token de Google: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+
+[05-Feb-2025 16:46:48 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 16:46:57 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 17:09:49 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 17:09:56 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 17:14:27 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 17:15:46 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 17:16:34 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 17:18:49 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 17:19:28 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[05-Feb-2025 17:19:38 Europe/Berlin] Error al verificar el token de Google: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[06-Feb-2025 20:26:46 Europe/Berlin] Error al verificar Google OAuth: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[06-Feb-2025 20:27:41 Europe/Berlin] Error al verificar Google OAuth: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+[11-Feb-2025 18:58:17 Europe/Berlin] Error: Token de Google no verificado correctamente.
+[11-Feb-2025 18:59:46 Europe/Berlin] Error: Token de Google no verificado correctamente.
+[11-Feb-2025 19:00:46 Europe/Berlin] Error: Token de Google no verificado correctamente.
+[11-Feb-2025 19:04:27 Europe/Berlin] Error: Token de Google no verificado correctamente.
+[11-Feb-2025 19:05:51 Europe/Berlin] Error: Token de Google no verificado correctamente.
+[11-Feb-2025 19:06:02 Europe/Berlin] Error: Token de Google no verificado correctamente.
+[11-Feb-2025 19:06:10 Europe/Berlin] Error: Token de Google no verificado correctamente.
+[11-Feb-2025 19:29:58 Europe/Berlin] Token recibido de Google: eyJhbGciOiJSUzI1NiIsImtpZCI6ImVlYzUzNGZhNWI4Y2FjYTIwMWNhOGQwZmY5NmI1NGM1NjIyMTBkMWUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzODIxODQ4NDE3ODQtb2Zkb2VtN2NnbDBpaHMzZzlxdnVsNjU3bmY1amlnY20uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzODIxODQ4NDE3ODQtb2Zkb2VtN2NnbDBpaHMzZzlxdnVsNjU3bmY1amlnY20uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDgyNzI1MTk3Mjg3NTQ4NzgxMTQiLCJlbWFpbCI6InNlYmFzY3JyN0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzM5Mjk4Mjk4LCJuYW1lIjoic2ViYXNiYmNrIF8iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWZNRTVSTmk1bXIwX3Q2SFZ6dVFtTEZod3Zncjd5emZOMG13amY3UWZwT0J3dEo3RnI9czk2LWMiLCJnaXZlbl9uYW1lIjoic2ViYXNiYmNrIiwiZmFtaWx5X25hbWUiOiJfIiwiaWF0IjoxNzM5Mjk4NTk4LCJleHAiOjE3MzkzMDIxOTgsImp0aSI6IjJlYWI2MGZkYjA3YzY5MmNjY2E5YmMxMTkwMjBhMzRkMzdiYjFjYTUifQ.yg1Kf9FNLgsymamZBOteYZoX_FKw8w0HcMbF49epL6DtA6ohe5IrlEFUCjoNwD1gncRqNUnQOvM4EseEgkyAQcfguUStMYkkDcTXP60uKWPIJv4fZYFSTScV1rUgsAIU9xGe3HkJKETxyou0TbUgyS2N-g_25j-2WuuHwsXWWMmTII2rwFID1ooSz_oUjQpvW5agnRUwq0ISrXthBpbQ4ysTbbNbXlJr6VNLpBtzIefcd1SLwNNCjZE4BBhjqczuERBh21b116znh7LU0POB34H7wGuecNWsYm9pwI6AypTiwbBkcJ_bfp3CfsCVnFM5XTIRT9aG9TSlMLg7QR2oPg
+[11-Feb-2025 19:29:58 Europe/Berlin] Error: Token de Google no verificado correctamente.
+[11-Feb-2025 19:30:31 Europe/Berlin] Token recibido de Google: eyJhbGciOiJSUzI1NiIsImtpZCI6ImVlYzUzNGZhNWI4Y2FjYTIwMWNhOGQwZmY5NmI1NGM1NjIyMTBkMWUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzODIxODQ4NDE3ODQtb2Zkb2VtN2NnbDBpaHMzZzlxdnVsNjU3bmY1amlnY20uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzODIxODQ4NDE3ODQtb2Zkb2VtN2NnbDBpaHMzZzlxdnVsNjU3bmY1amlnY20uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDgyNzI1MTk3Mjg3NTQ4NzgxMTQiLCJlbWFpbCI6InNlYmFzY3JyN0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzM5Mjk4MzMwLCJuYW1lIjoic2ViYXNiYmNrIF8iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWZNRTVSTmk1bXIwX3Q2SFZ6dVFtTEZod3Zncjd5emZOMG13amY3UWZwT0J3dEo3RnI9czk2LWMiLCJnaXZlbl9uYW1lIjoic2ViYXNiYmNrIiwiZmFtaWx5X25hbWUiOiJfIiwiaWF0IjoxNzM5Mjk4NjMwLCJleHAiOjE3MzkzMDIyMzAsImp0aSI6IjE5MDcwYTJmZDk1ZDViYmM0ZjYwMTFiN2RkM2MzZjI2NTBhYzE1OTIifQ.ueAnpN-IHlAYlvEi07v74sYRq7-BcYs15Bd7Wd-WiTvSaAUdJzGAcyWbxb0-Q93mbX6uTb3WaShOmN11pizqSoYsi5HttEvs2ftaSKjxeot91ygJt8QbFHbhYWFuOUIBmA_Ca15FEFmENCjcCZVz94V-MaZaCyQ2ld4wBOIE00A7TYxLUizNWMyU4nMuhdX_GBAnRb_IZIEBqXX18bmBKkeqO1ZtsnLKC9OCmfjDja0BgVCS2pOY2Xb_A1S6mFmojQQ4-H9JWxI0nv2megdbXb9FlwZGdQbPTirBFoJVpDz0jIrKlqg1vw_ojytAv9yDheKfjEd7ssg7Wk9KybwCLQ
+[11-Feb-2025 19:30:31 Europe/Berlin] Información del usuario: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 382184841784-ofdoem7cgl0ihs3g9qvul657nf5jigcm.apps.googleusercontent.com
+    [aud] => 382184841784-ofdoem7cgl0ihs3g9qvul657nf5jigcm.apps.googleusercontent.com
+    [sub] => 108272519728754878114
+    [email] => sebascrr7@gmail.com
+    [email_verified] => 1
+    [nbf] => 1739298330
+    [name] => sebasbbck _
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocIfME5RNi5mr0_t6HVzuQmLFhwvgr7yzfN0mwjf7QfpOBwtJ7Fr=s96-c
+    [given_name] => sebasbbck
+    [family_name] => _
+    [iat] => 1739298630
+    [exp] => 1739302230
+    [jti] => 19070a2fd95d5bbc4f6011b7dd3c3f2650ac1592
+)
+
+[11-Feb-2025 19:30:31 Europe/Berlin] JWT generado: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dS1wcm95ZWN0by5jb20iLCJhdWQiOiJ0dS1wcm95ZWN0by5jb20iLCJpYXQiOjE3MzkyOTg2MzEsImV4cCI6MTczOTMwNTgzMSwidXNlcklkIjo2fQ.iXCIg8T1O-xUds4F4L8xhGT7hEKbNa3FTb0Xw83eVag
+[12-Feb-2025 15:47:14 Europe/Berlin] PHP Warning:  Undefined variable $userId in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 53
+[12-Feb-2025 15:47:14 Europe/Berlin] PHP Warning:  Undefined variable $userId in /home/vespertino/Escritorio/VS/PROYECTO_EVAL/api/login.php on line 60

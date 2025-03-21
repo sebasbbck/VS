@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#user-info {
+    position: fixed; /* Fijado en la pantalla */
+    top: 10px; /* Espacio desde la parte superior */
+    right: 10px; /* Espacio desde la izquierda */
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    color: white; /* Texto en blanco */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    text-align: left;
+    max-width: 250px; /* Para evitar que sea muy ancho */
+}
+
+#user-info img {
+    width: 50px; /* Tamaño de la imagen */
+    height: 50px;
+    border-radius: 50%; /* Hacer la imagen circular */
+    display: block;
+    margin-top: 5px;
+}
+
